@@ -31,6 +31,7 @@ function Formulario() {
     {error ? <Error/> : null}
       <form onSubmit={handlerSubmit}>
         <div className="my-5">
+          <button className="cotizaciones"> Historial de cotizaciones </button>
           <label className="block mb-3 font-bold text-gray-500 uppercase">
             Marca
           </label>
